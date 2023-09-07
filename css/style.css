@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a{
+    color: rgb(0, 194, 168);
+    font-size: 30px;
+    text-decoration:none;
+    background-color: lightblue;
+    background-image: image();
+}
+
+#rcorners1 {
+    border-radius: 40px;
+    background: #73AD21;
+    padding: 100px;
+    width: 500px;
+    height: 150px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+
+    
+    
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+ul li a{
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+ul li a:hover {
+    background-color: aqua;
+}
+
+
+
+.video {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    
+}
+
+
+.koe{
+position: absolute;
+top:500px;
+left:400px;
+}
+.home{
+position: absolute;
+top: 20px;
+left: 500px;
+font-family: Fantasy;
+}
+.contact{
+position: absolute;
+top: 20px;
+left: 900px;
+font-family: Fantasy;
+}
+.overmij{
+position: absolute;
+top: 20px;
+left: 675px;
+font-family: Fantasy;
+}
+
+body{
+    background-color: lightblue; 
+    background-image: url("..bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:hover{
+    color: black;
+    transition: width 5s;
+}
+
+
+.email {
+    position: absolute;
+    
+}
+
